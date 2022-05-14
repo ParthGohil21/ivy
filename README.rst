@@ -75,7 +75,6 @@ Contents
 
 Overview
 --------
-
 Ivy is an ML framework that currently supports JAX, TensorFlow, PyTorch, MXNet, and Numpy. We're very excited for you to try it out!
 
 Next on our roadmap is to support automatic code conversions between any frameworks 🔄, and add instant multi-framework support for all open-source libraries with only a few lines of code changed! Read on to learn more 😊
