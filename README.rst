@@ -76,21 +76,20 @@ Contents
 Overview
 --------
 
-Ivy is an ML framework which currently supports JAX, TensorFlow, PyTorch, MXNet and Numpy. We’re very excited for you to try it out!
+Ivy is an ML framework that currently supports JAX, TensorFlow, PyTorch, MXNet, and Numpy. We're very excited for you to try it out!
 
-Next on our road-map is to support automatic code conversions between any frameworks 🔄, and add instant multi-framework support for all open-source libraries with only a few lines of code changed! Read on to learn more 😊
+Next on our roadmap is to support automatic code conversions between any frameworks 🔄, and add instant multi-framework support for all open-source libraries with only a few lines of code changed! Read on to learn more 😊
 
-The docs are split into a number of sub-pages explaining different aspects of why we created Ivy, how to use it, what we’ve got planned on our road-map, and how to contribute! Click on the sub-headings to check out these pages!
+The docs are split into a number of sub-pages explaining different aspects of why we created Ivy, how to use it, what we've got planned on our roadmap, and how to contribute! Click on the sub-headings to check out these pages!
 
 We use 🚧 to indicate that the feature being discussed is in development. We use ✅ to indicate that it is already implemented!
 
-Check out the docs_ for more info, and check out our Google Colabs_ for some interactive demos!
+Check out the docs for more info, and check out our Google Colabs for some interactive demos!
 
 Quick Start
 -----------
-
-Ivy can be installed like so: ``pip install ivy-core``
-You can immediately use Ivy to train a neural network, using your favourite framework in the background, like so:
+Ivy can be installed like so: pip install ivy-core 
+You can immediately use Ivy to train a neural network, using your favorite framework in the background, like so:
 
 .. code-block:: python
 
@@ -122,9 +121,9 @@ You can immediately use Ivy to train a neural network, using your favourite fram
         print('step {} loss {}'.format(step, ivy.to_numpy(loss).item()))
 
     print('Finished training!')
-
-This example uses PyTorch as a backend framework,
-but the backend can easily be changed to your favourite framework, such as TensorFlow, JAX or MXNet.
+    
+This example uses PyTorch as a backend framework, 
+but the backend can easily be changed to your favorite frameworks, such as TensorFlow, JAX, or MXNet.
 
 **Framework Agnostic Functions**
 
@@ -209,7 +208,7 @@ Design
 | 1. Serve as a transpiler between frameworks 🚧
 | 2. Serve as a new ML framework with multi-framework support ✅
 |
-| The Ivy codebase can then be split into three categories, and can be further split into 8 distinct submodules, each of which fall into one of these three categories as follows:
+| The Ivy codebase can then be split into three categories, and can be further split into 8 distinct submodules, each of which falls into one of these three categories as follows:
 
 .. image:: https://github.com/unifyai/unifyai.github.io/blob/master/img/externally_linked/submodule_dependency_graph.png?raw=true
    :align: center
